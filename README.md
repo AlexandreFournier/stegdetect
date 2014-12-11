@@ -1,12 +1,14 @@
-stegdetect
+stegdetect and stegbreak
 ==========
 
 Stegdetect is an automated tool for detecting steganographic content in images.
 
-URL: http://www.outguess.org/detection.php
+URL (dead for unkown reasons): http://www.outguess.org/detection.php
 
 This repo contains the 0.6 sources with compilation fixes for modern dev
 environments and Android (ARM).
+
+Additionally. stegbreak is available. Runs - at least on Debian, Ubuntu - only without -O2 compiler flags.
 
 ### Building on x86_64
 
@@ -57,6 +59,12 @@ To run detection on a directory of JPEGs use:
             /data/local/tmp/stegdetect -tF $img
         done
 ```
+
+### TODO
+
+Stegbreak info   
+Merge with debian archive    
+Links for -O2 errors    
 
 ### License
 
