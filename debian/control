@@ -1,0 +1,32 @@
+Source: stegdetect
+Section: utils
+Priority: optional
+Maintainer: Samuele Giovanni Tonon <samu@debian.org>
+Build-Depends: debhelper (>= 4.0.0), autotools-dev, libevent-dev, libgtk-dev, gcc-3.4
+Standards-Version: 3.6.1
+
+Package: stegdetect
+Architecture: any
+Depends: ${shlibs:Depends}, wenglish | wordlist
+Suggests: libjpeg-progs
+Description: Detect and extract steganography messages inside JPEG 
+ Stegdetect is an automated tool for detecting steganographic content 
+ in images. 
+ It is capable of detecting several different steganographic methods
+ to embed hidden information in JPEG images. 
+ Currently, the detectable schemes are:
+ jsteg, jphide (unix and windows), invisible secrets, outguess 01.3b,
+ F5 (header analysis), appendX and camouflage.
+ Stegbreak is used to launch dictionary attacks
+ against JSteg-Shell, JPHide and OutGuess 0.13b.
+
+Package: xsteg
+Architecture: any
+Depends: ${shlibs:Depends}, stegdetect
+Description: Graphical frontend to stegdetect
+ Xsteg is a graphical frontend to stegdetect, an automated tool for
+ detecting steganographic content in images (only JPEG). 
+ Steganography is a method of hiding information within image files.
+ .
+ This package is not required to run stegdetect
+ 

@@ -1,0 +1,74 @@
+stegdetect (0.6-3) unstable; urgency=low
+
+  * Removed files that are present in other packages and
+    libraries (Closes: #318485)
+
+ -- Samuele Giovanni Tonon <samu@debian.org>  Mon, 18 Jul 2005 12:25:02 +0200
+
+stegdetect (0.6-2) unstable; urgency=low
+
+  * The "Forgive me guys, i'm in love" Release
+  * Added Conflicts with libjpeg-progs (Closes: #318166)
+
+ -- Samuele Giovanni Tonon <samu@debian.org>  Thu, 14 Jul 2005 10:16:03 +0200
+
+stegdetect (0.6-1) unstable; urgency=low
+
+  * New Upstream Release (Closes: #317521)
+
+ -- Samuele Giovanni Tonon <samu@debian.org>  Wed, 13 Jul 2005 10:57:21 +0200
+
+stegdetect (0.5-7) unstable; urgency=low
+
+  * Recompiling against libevent1 newer version to make it work better
+    (Closes: #294400) 
+
+ -- Samuele Giovanni Tonon <samu@debian.org>  Wed,  9 Feb 2005 20:14:58 +0100
+
+stegdetect (0.5-6) unstable; urgency=low
+
+  * Added Patch from  Andreas Jochens (many thanks!) to make it compile
+    against gcc-3.4 (Closes: #263818)
+
+ -- Samuele Giovanni Tonon <samu@debian.org>  Mon, 16 Aug 2004 16:31:26 +0200
+
+stegdetect (0.5-5) unstable; urgency=low
+
+  * Recompiled against libevent1, thanks to Christian Surchi for
+    reporting it (Closes: #216587) 
+
+ -- Samuele Giovanni Tonon <samu@debian.org>  Thu, 13 Nov 2003 17:10:32 +0100
+
+stegdetect (0.5-4) unstable; urgency=low
+
+  * Modified Description field to give a better description to xsteg
+    as proposed by Marek Habersack (Closes: #209969)
+
+ -- Samuele Giovanni Tonon <samu@debian.org>  Tue, 16 Sep 2003 21:10:31 +0200
+
+stegdetect (0.5-3) unstable; urgency=low
+
+  * Modified file/Makefile.am and file/Makefile.in to make
+    stegdetect compile against gcc-3.3 as pointed out 
+    by Daniel Schepler (thanks) (Closes: #196460)
+
+ -- Samuele Giovanni Tonon <samu@debian.org>  Mon,  9 Jun 2003 11:48:19 +0200
+
+stegdetect (0.5-2) unstable; urgency=low
+
+  * The "i'm so stupid, please forgive me" Release
+  * added binaries to stegdetect package (Closes: #163934)
+  * Description improvement for stegdetect (Closes: #163720)
+  * Description improvement for xsteg (Closes: #163719)
+  * Added /usr/share/stegbreak/rules.ini file
+  * Modified stegbreak.1 page to suit /usr/share/stegbreak/rules.ini
+
+ -- Samuele Giovanni Tonon <samu@debian.org>  Mon, 14 Oct 2002 14:26:41 +0200
+
+stegdetect (0.5-1) unstable; urgency=low
+
+  * Initial Release (Closes: Bug#162420)
+  * added man page for xsteg
+  * modified configure files
+
+ -- Samuele Giovanni Tonon <samu@debian.org>  Tue,  1 Oct 2002 15:45:16 +0200

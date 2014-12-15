@@ -1,0 +1,8 @@
+stegdetect for Debian
+---------------------
+
+i divided stegdetect in two main packages:
+stegdetect which contains stegdetect and stegbreak
+xsteg which contain xsteg
+
+ -- Samuele Giovanni Tonon <samu@debian.org>, Thu, 26 Sep 2002 15:01:20 +0200

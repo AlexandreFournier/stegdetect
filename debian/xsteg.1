@@ -1,0 +1,44 @@
+.\"	$OpenBSD: mdoc.template,v 1.6 2001/02/03 08:22:44 niklas Exp $
+.\"
+.\" The following requests are required for all man pages.
+.Dd September 26, 2002
+.Dt XSTEG 1
+.Os
+.Sh NAME
+.Nm xsteg
+.Nd graphical frontend to stegdetect and stegbreak
+.Sh SYNOPSIS
+.Nm xsteg
+.Sh DESCRIPTION
+The
+.Nm
+utility execute on the chosen file stegdetect with the option specified
+in the main window ; if stegdetect find some type of steganography into
+the given file, then stegbreak is executed against the file, 
+to try to discover the key through a dictionary attack.
+.Pp
+.Pp
+The
+.Nm
+utility indicates the accuracy of the detection with a number of stars
+behind the detected system. 
+.Pp
+.Sh ERRORS
+.Nm
+works only for
+.Tn JPEG
+images.
+.Pp
+.Sh SEE ALSO
+.Xr stegbreak 1
+.Xr stegdetect 1
+.Sh ACKNOWLEDGEMENTS
+This product includes software developed by Ian F. Darwin and others.
+The
+.Nm
+utility uses Darwin's file magic to identify data appended at the end of
+an image.
+.Sh AUTHORS
+The
+.Nm
+utility has been developed by Niels Provos.

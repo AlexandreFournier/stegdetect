@@ -1,0 +1,6 @@
+usr/bin
+etc/stegdetect
+etc/stegbreak
+usr/man/man1
+usr/share/man/man1
+usr/share/stegdetect

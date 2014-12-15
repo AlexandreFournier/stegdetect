@@ -1,0 +1,5 @@
+usr/bin/stegdetect
+usr/bin/stegbreak
+usr/share/stegbreak/rules.ini
+usr/share/man/man1/stegdetect.1
+usr/share/man/man1/stegbreak.1
